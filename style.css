@@ -81,6 +81,27 @@ p {
     box-shadow: 0 10px 20px rgba(108, 99, 255, 0.2);
 }
 
+.resume-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #9e6be7; /* LinkedIn blue */
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.resume-btn:hover {
+    background: var(--secondary-color);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(108, 99, 255, 0.2);
+    cursor: pointer;
+    background-color: #ffffff; /* LinkedIn blue */
+    color: rgb(149, 59, 200);
+}
 /* Navigation */
 .navbar {
     position: fixed;
